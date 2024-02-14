@@ -21,7 +21,7 @@ namespace TestUIProject.UI
 
         public void Removed()
         {
-            //NOTE: Eсли есть возможность добавления runtime, лучше выключить объект и использовать в дальнейшем (PoolObject)
+            //NOTE: Eсли есть возможность добавления runtime, можно выключить объект и использовать в дальнейшем (PoolObject)
             //gameObject.SetActive(false);
 
             Destroy(gameObject);

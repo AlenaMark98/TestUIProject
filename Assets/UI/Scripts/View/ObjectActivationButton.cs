@@ -22,13 +22,7 @@ namespace TestUIProject.UI
 
         private void OnDestroy() => _button.onClick.RemoveListener(ActivateObject);
 
-        private void ActivateObject()
-        {
-            if (_objectActive != null)
-            {
-                _objectActive.SetActive(_state == ObjectState.Open);
-            }
-        }
+        private void ActivateObject() => _objectActive.SetActive(_state == ObjectState.Open);
 
     }
 }
